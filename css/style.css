@@ -1,0 +1,44 @@
+body{
+    background: url('https://miro.medium.com/v2/resize:fit:1200/1*xMuIOwjliGUPjkzukeWKfw.jpeg') center/cover no-repeat;
+    
+}
+section{
+    padding: 20px;
+    margin: 20px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.container {
+    content: "";
+        position: relative;
+        padding: 20px;
+        top: 0;
+        font-family: 'Roboto Mono', monospace;
+        left: 360px;
+        font-size:  30px;;
+        width: 400px; /* Adjust this value to control the size of the circular border */
+        height: 100%;
+        
+        background-color: blanchedalmond;
+        border-radius: 0 50px 0 50px; 
+        
+    }
+    .video{
+        margin-left: 300px;
+    }
+    .circle {
+        width: 100px;
+        background-color: #3498db;
+        margin-left: 500px;
+        border-radius: 50%; /* This property makes it a circle */
+    }
+    h1{
+        margin-left: 400px;
+        color: white;
+    }
+     /* Add a flex container for the image and container */
+     .flex-container {
+        display: flex;
+        align-items: center; /* Center items vertically within the flex container */
+    }
